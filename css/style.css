@@ -69,8 +69,14 @@ h6 {
   font-size: inherit;
 }
 
+.no-webp body{
+  background-image: url("../img/BG.jpg"); }
+
 body {
   font-family: "Roboto Condensed", sans-serif;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #0f1119;
 }
 
 .lock body {
@@ -81,13 +87,7 @@ body {
       overscroll-behavior: none;
 }
 
-.no-webp .wrapper{
-  background-image: url("../img/BG.jpg"); }
-
 .wrapper {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: #0f1119;
   min-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -780,4 +780,4 @@ header > div .top_menu ul li a:hover {
   }
 }
 
-.webp .wrapper{ background-image: url(../img/BG.webp); }
+.webp body{ background-image: url(../img/BG.webp); }

@@ -6,385 +6,383 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230127183116">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230127183603">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap&_v=20230127183116" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css?_v=20230127183116">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap&_v=20230127183603" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css?_v=20230127183603">
 </head>
 
 <body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="container">
-				<div class="header__wrapper">
-					<div class="logo">
-						<a href="/">
-							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
-						</a>
+	<header class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="logo">
+					<a href="/">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+					</a>
+				</div>
+				<div class="top_menu">
+					<ul class="nav justify-content-end">
+						<li class="nav-item active">
+							<a class="nav-link" aria-current="page" href="#">Анонсы серверов Lineage 2</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Сервера по хроникам</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Скоро откроются</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Открывшиеся сервера</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="languages">
+					<div class="languages__item-eng">
+						<button type="button">En</button>
 					</div>
-					<div class="top_menu">
-						<ul class="nav justify-content-end">
-							<li class="nav-item active">
-								<a class="nav-link" aria-current="page" href="#">Анонсы серверов Lineage 2</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Сервера по хроникам</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Скоро откроются</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Открывшиеся сервера</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Контакты</a>
-							</li>
-						</ul>
-					</div>
-					<div class="languages">
-						<div class="languages__item-eng">
-							<button type="button">En</button>
-						</div>
-						<div class="languages__item-ru">Ru</div>
-					</div>
+					<div class="languages__item-ru">Ru</div>
 				</div>
 			</div>
-		</header>
-		<main class="page">
-			<section class="page__filter filter">
-				<div class="container">
-					<div class="filter__inner">
-						<button class="filter__button" type="button"><img src="img/filter-icon.svg" alt="icon:filter"></button>
-						<div data-spollers data-one-spoller class="spollers">
-							<div class="spollers__item">
-								<button type="button" data-spoller class="spollers__title">Хроники</button>
-								<div class="spollers__body">
-									<form action="#" class="spollers__form form-spollers">
-										<div class="options">
-											<div class="options__item">
-												<input hidden id="o_1" class="options__input" checked type="radio" value="1" name="option">
-												<label for="o_1" class="options__label"><span class="options__text">Interlude</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_2" class="options__input" type="radio" value="2" name="option">
-												<label for="o_2" class="options__label"><span class="options__text">Classic</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_3" class="options__input" checked type="radio" value="1" name="option">
-												<label for="o_3" class="options__label"><span class="options__text">High
-														five</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_4" class="options__input" type="radio" value="2" name="option">
-												<label for="o_4" class="options__label"><span class="options__text">Essence</span></label>
-											</div>
+		</div>
+	</header>
+	<main class="page">
+		<section class="page__filter filter">
+			<div class="container">
+				<div class="filter__inner">
+					<button class="filter__button" type="button"><img src="img/filter-icon.svg" alt="icon:filter"></button>
+					<div data-spollers data-one-spoller class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Хроники</button>
+							<div class="spollers__body">
+								<form action="#" class="spollers__form form-spollers">
+									<div class="options">
+										<div class="options__item">
+											<input hidden id="o_1" class="options__input" checked type="radio" value="1" name="option">
+											<label for="o_1" class="options__label"><span class="options__text">Interlude</span></label>
 										</div>
-										<div class="form-spollers__actions">
-											<button type="button" class="form-spollers__reset">Сброс</button>
-											<button type="submit" class="form-spollers__apply">Применить</button>
+										<div class="options__item">
+											<input hidden id="o_2" class="options__input" type="radio" value="2" name="option">
+											<label for="o_2" class="options__label"><span class="options__text">Classic</span></label>
 										</div>
-									</form>
-								</div>
+										<div class="options__item">
+											<input hidden id="o_3" class="options__input" checked type="radio" value="1" name="option">
+											<label for="o_3" class="options__label"><span class="options__text">High
+													five</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_4" class="options__input" type="radio" value="2" name="option">
+											<label for="o_4" class="options__label"><span class="options__text">Essence</span></label>
+										</div>
+									</div>
+									<div class="form-spollers__actions">
+										<button type="button" class="form-spollers__reset">Сброс</button>
+										<button type="submit" class="form-spollers__apply">Применить</button>
+									</div>
+								</form>
 							</div>
-							<div class="spollers__item">
-								<button type="button" data-spoller class="spollers__title">Рейты</button>
-								<div class="spollers__body">
-									<form action="#" class="spollers__form form-spollers">
-										<div class="options">
-											<div class="options__item">
-												<input hidden id="o_5" class="options__input" checked type="radio" value="1" name="option">
-												<label for="o_5" class="options__label"><span class="options__text">x1-x10</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_6" class="options__input" type="radio" value="2" name="option">
-												<label for="o_6" class="options__label"><span class="options__text">x10-x50</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_7" class="options__input" checked type="radio" value="1" name="option">
-												<label for="o_7" class="options__label"><span class="options__text">x50-x100</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_8" class="options__input" type="radio" value="2" name="option">
-												<label for="o_8" class="options__label"><span class="options__text">x100-x1000</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_9" class="options__input" type="radio" value="2" name="option">
-												<label for="o_9" class="options__label"><span class="options__text">x1000-x2000</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_10" class="options__input" type="radio" value="2" name="option">
-												<label for="o_10" class="options__label"><span class="options__text">x2000+</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_11" class="options__input" type="radio" value="2" name="option">
-												<label for="o_11" class="options__label"><span class="options__text">GVE</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_12" class="options__input" type="radio" value="2" name="option">
-												<label for="o_12" class="options__label"><span class="options__text">RVR</span></label>
-											</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Рейты</button>
+							<div class="spollers__body">
+								<form action="#" class="spollers__form form-spollers">
+									<div class="options">
+										<div class="options__item">
+											<input hidden id="o_5" class="options__input" checked type="radio" value="1" name="option">
+											<label for="o_5" class="options__label"><span class="options__text">x1-x10</span></label>
 										</div>
-										<div class="form-spollers__actions">
-											<button type="button" class="form-spollers__reset">Сброс</button>
-											<button type="submit" class="form-spollers__apply">Применить</button>
+										<div class="options__item">
+											<input hidden id="o_6" class="options__input" type="radio" value="2" name="option">
+											<label for="o_6" class="options__label"><span class="options__text">x10-x50</span></label>
 										</div>
-									</form>
-								</div>
+										<div class="options__item">
+											<input hidden id="o_7" class="options__input" checked type="radio" value="1" name="option">
+											<label for="o_7" class="options__label"><span class="options__text">x50-x100</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_8" class="options__input" type="radio" value="2" name="option">
+											<label for="o_8" class="options__label"><span class="options__text">x100-x1000</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_9" class="options__input" type="radio" value="2" name="option">
+											<label for="o_9" class="options__label"><span class="options__text">x1000-x2000</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_10" class="options__input" type="radio" value="2" name="option">
+											<label for="o_10" class="options__label"><span class="options__text">x2000+</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_11" class="options__input" type="radio" value="2" name="option">
+											<label for="o_11" class="options__label"><span class="options__text">GVE</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_12" class="options__input" type="radio" value="2" name="option">
+											<label for="o_12" class="options__label"><span class="options__text">RVR</span></label>
+										</div>
+									</div>
+									<div class="form-spollers__actions">
+										<button type="button" class="form-spollers__reset">Сброс</button>
+										<button type="submit" class="form-spollers__apply">Применить</button>
+									</div>
+								</form>
 							</div>
-							<div class="spollers__item">
-								<button type="button" data-spoller class="spollers__title">Тип сервера</button>
-								<div class="spollers__body">
-									<form action="#" class="spollers__form form-spollers">
-										<div class="options options_type">
-											<div class="options__item">
-												<input hidden id="o_13" class="options__input" checked type="radio" value="1" name="option">
-												<label for="o_13" class="options__label"><span class="options__text">Топ сервера
-														л2</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_14" class="options__input" type="radio" value="2" name="option">
-												<label for="o_14" class="options__label"><span class="options__text">LOW
-														рейт</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_15" class="options__input" checked type="radio" value="1" name="option">
-												<label for="o_15" class="options__label"><span class="options__text">pvp
-														сервера</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_16" class="options__input" type="radio" value="2" name="option">
-												<label for="o_16" class="options__label"><span class="options__text">gve</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_17" class="options__input" type="radio" value="2" name="option">
-												<label for="o_17" class="options__label"><span class="options__text">Мультипрофа</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_18" class="options__input" type="radio" value="2" name="option">
-												<label for="o_18" class="options__label"><span class="options__text">зарубежные</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_19" class="options__input" type="radio" value="2" name="option">
-												<label for="o_19" class="options__label"><span class="options__text">GVE</span></label>
-											</div>
-											<div class="options__item">
-												<input hidden id="o_20" class="options__input" type="radio" value="2" name="option">
-												<label for="o_20" class="options__label"><span class="options__text">RVR</span></label>
-											</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Тип сервера</button>
+							<div class="spollers__body">
+								<form action="#" class="spollers__form form-spollers">
+									<div class="options options_type">
+										<div class="options__item">
+											<input hidden id="o_13" class="options__input" checked type="radio" value="1" name="option">
+											<label for="o_13" class="options__label"><span class="options__text">Топ сервера
+													л2</span></label>
 										</div>
-										<div class="form-spollers__actions">
-											<button type="button" class="form-spollers__reset">Сброс</button>
-											<button type="submit" class="form-spollers__apply">Применить</button>
+										<div class="options__item">
+											<input hidden id="o_14" class="options__input" type="radio" value="2" name="option">
+											<label for="o_14" class="options__label"><span class="options__text">LOW
+													рейт</span></label>
 										</div>
-									</form>
-								</div>
+										<div class="options__item">
+											<input hidden id="o_15" class="options__input" checked type="radio" value="1" name="option">
+											<label for="o_15" class="options__label"><span class="options__text">pvp
+													сервера</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_16" class="options__input" type="radio" value="2" name="option">
+											<label for="o_16" class="options__label"><span class="options__text">gve</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_17" class="options__input" type="radio" value="2" name="option">
+											<label for="o_17" class="options__label"><span class="options__text">Мультипрофа</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_18" class="options__input" type="radio" value="2" name="option">
+											<label for="o_18" class="options__label"><span class="options__text">зарубежные</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_19" class="options__input" type="radio" value="2" name="option">
+											<label for="o_19" class="options__label"><span class="options__text">GVE</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_20" class="options__input" type="radio" value="2" name="option">
+											<label for="o_20" class="options__label"><span class="options__text">RVR</span></label>
+										</div>
+									</div>
+									<div class="form-spollers__actions">
+										<button type="button" class="form-spollers__reset">Сброс</button>
+										<button type="submit" class="form-spollers__apply">Применить</button>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
-					<div class="filter__body body-filter">
-						<a href='#' class="body-filter__item item-body">
-							<div class="item-body__content">
-								<div class="item-body__header">
-									<h5 class="item-body__label label">Сервер 1</h5>
-									<div class="item-body__inner">
-										<span class="item-body__name">Interlude</span>
-										<span class="item-body__value">x50</span>
-									</div>
-								</div>
-								<p class="item-body__text">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-									interdum, ac aliquet odio
-									mattis.
-								</p>
-							</div>
-							<div class="item-body__date">11.11.2022</div>
-							<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
-						</a>
-						<a href="#" class="body-filter__item item-body">
-							<div class="item-body__content">
-								<div class="item-body__header">
-									<h5 class="item-body__label label">Сервер 2</h5>
+				</div>
+				<div class="filter__body body-filter">
+					<a href='#' class="body-filter__item item-body">
+						<div class="item-body__content">
+							<div class="item-body__header">
+								<h5 class="item-body__label label">Сервер 1</h5>
+								<div class="item-body__inner">
 									<span class="item-body__name">Interlude</span>
 									<span class="item-body__value">x50</span>
 								</div>
-								<p class="item-body__text">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-									interdum, ac aliquet odio
-									mattis.
-								</p>
 							</div>
-							<picture><source srcset="img/02.webp" type="image/webp"><img src="img/02.png" alt="image" class="item-body__image"></picture>
-							<div class="item-body__date">11.11.2022</div>
-						</a>
-						<a href="#" class="body-filter__item item-body">
-							<div class="item-body__content">
-								<div class="item-body__header">
-									<h5 class="item-body__label label">Сервер 3</h5>
-									<div class="item-body__inner">
-										<span class="item-body__name">Interlude</span>
-										<span class="item-body__value">x50</span>
-									</div>
+							<p class="item-body__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+								interdum, ac aliquet odio
+								mattis.
+							</p>
+						</div>
+						<div class="item-body__date">11.11.2022</div>
+						<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
+					</a>
+					<a href="#" class="body-filter__item item-body">
+						<div class="item-body__content">
+							<div class="item-body__header">
+								<h5 class="item-body__label label">Сервер 2</h5>
+								<span class="item-body__name">Interlude</span>
+								<span class="item-body__value">x50</span>
+							</div>
+							<p class="item-body__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+								interdum, ac aliquet odio
+								mattis.
+							</p>
+						</div>
+						<picture><source srcset="img/02.webp" type="image/webp"><img src="img/02.png" alt="image" class="item-body__image"></picture>
+						<div class="item-body__date">11.11.2022</div>
+					</a>
+					<a href="#" class="body-filter__item item-body">
+						<div class="item-body__content">
+							<div class="item-body__header">
+								<h5 class="item-body__label label">Сервер 3</h5>
+								<div class="item-body__inner">
+									<span class="item-body__name">Interlude</span>
+									<span class="item-body__value">x50</span>
 								</div>
-								<p class="item-body__text">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-									interdum, ac aliquet
-									odio
-									mattis.
-								</p>
 							</div>
-							<div class="item-body__date">11.11.2022</div>
-							<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
-						</a>
-						<a href="#" class="body-filter__item item-body">
-							<div class="item-body__content">
-								<div class="item-body__header">
-									<h5 class="item-body__label label">Сервер 4</h5>
-									<div class="item-body__inner">
-										<span class="item-body__name">Interlude</span>
-										<span class="item-body__value">x50</span>
-									</div>
+							<p class="item-body__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+								interdum, ac aliquet
+								odio
+								mattis.
+							</p>
+						</div>
+						<div class="item-body__date">11.11.2022</div>
+						<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
+					</a>
+					<a href="#" class="body-filter__item item-body">
+						<div class="item-body__content">
+							<div class="item-body__header">
+								<h5 class="item-body__label label">Сервер 4</h5>
+								<div class="item-body__inner">
+									<span class="item-body__name">Interlude</span>
+									<span class="item-body__value">x50</span>
 								</div>
-								<p class="item-body__text">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-									interdum, ac aliquet
-									odio
-									mattis.
-								</p>
 							</div>
-							<div class="item-body__date">11.11.2022</div>
-							<picture><source srcset="img/03.webp" type="image/webp"><img src="img/03.png" alt="image" class="item-body__image"></picture>
-						</a>
-						<a href="#" class="body-filter__item item-body">
-							<div class="item-body__content">
-								<div class="item-body__header">
-									<h5 class="item-body__label label">Сервер 5</h5>
-									<div class="item-body__inner">
-										<span class="item-body__name">Interlude</span>
-										<span class="item-body__value">x50</span>
-									</div>
+							<p class="item-body__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+								interdum, ac aliquet
+								odio
+								mattis.
+							</p>
+						</div>
+						<div class="item-body__date">11.11.2022</div>
+						<picture><source srcset="img/03.webp" type="image/webp"><img src="img/03.png" alt="image" class="item-body__image"></picture>
+					</a>
+					<a href="#" class="body-filter__item item-body">
+						<div class="item-body__content">
+							<div class="item-body__header">
+								<h5 class="item-body__label label">Сервер 5</h5>
+								<div class="item-body__inner">
+									<span class="item-body__name">Interlude</span>
+									<span class="item-body__value">x50</span>
 								</div>
-								<p class="item-body__text">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-									interdum, ac aliquet odio
-									mattis.
-								</p>
 							</div>
-							<div class="item-body__date">11.11.2022</div>
-							<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
-						</a>
-						<a href="#" class="body-filter__item item-body">
-							<div class="item-body__content">
-								<div class="item-body__header">
-									<h5 class="item-body__label label">Сервер 6</h5>
-									<div class="item-body__inner">
-										<span class="item-body__name">Interlude</span>
-										<span class="item-body__value">x50</span>
-									</div>
+							<p class="item-body__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+								interdum, ac aliquet odio
+								mattis.
+							</p>
+						</div>
+						<div class="item-body__date">11.11.2022</div>
+						<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
+					</a>
+					<a href="#" class="body-filter__item item-body">
+						<div class="item-body__content">
+							<div class="item-body__header">
+								<h5 class="item-body__label label">Сервер 6</h5>
+								<div class="item-body__inner">
+									<span class="item-body__name">Interlude</span>
+									<span class="item-body__value">x50</span>
 								</div>
-								<p class="item-body__text">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-									interdum, ac aliquet odio
-									mattis.
-								</p>
 							</div>
-							<div class="item-body__date">11.11.2022</div>
-							<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
-						</a>
-						<a href="#" class="body-filter__item item-body">
-							<div class="item-body__content">
-								<div class="item-body__header">
-									<h5 class="item-body__label label">Сервер 7</h5>
-									<div class="item-body__inner">
-										<span class="item-body__name">Interlude</span>
-										<span class="item-body__value">x50</span>
-									</div>
+							<p class="item-body__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+								interdum, ac aliquet odio
+								mattis.
+							</p>
+						</div>
+						<div class="item-body__date">11.11.2022</div>
+						<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
+					</a>
+					<a href="#" class="body-filter__item item-body">
+						<div class="item-body__content">
+							<div class="item-body__header">
+								<h5 class="item-body__label label">Сервер 7</h5>
+								<div class="item-body__inner">
+									<span class="item-body__name">Interlude</span>
+									<span class="item-body__value">x50</span>
 								</div>
-								<p class="item-body__text">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-									interdum, ac aliquet odio
-									mattis.
-								</p>
 							</div>
-							<div class="item-body__date">11.11.2022</div>
-							<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
-						</a>
-						<a href="#" class="body-filter__item item-body">
-							<div class="item-body__content">
-								<div class="item-body__header">
-									<h5 class="item-body__label label">Сервер 8</h5>
-									<div class="item-body__inner">
-										<span class="item-body__name">Interlude</span>
-										<span class="item-body__value">x50</span>
-									</div>
+							<p class="item-body__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+								interdum, ac aliquet odio
+								mattis.
+							</p>
+						</div>
+						<div class="item-body__date">11.11.2022</div>
+						<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
+					</a>
+					<a href="#" class="body-filter__item item-body">
+						<div class="item-body__content">
+							<div class="item-body__header">
+								<h5 class="item-body__label label">Сервер 8</h5>
+								<div class="item-body__inner">
+									<span class="item-body__name">Interlude</span>
+									<span class="item-body__value">x50</span>
 								</div>
-								<p class="item-body__text">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-									interdum, ac aliquet odio
-									mattis.
-								</p>
 							</div>
-							<div class="item-body__date">11.11.2022</div>
-							<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
-						</a>
-					</div>
+							<p class="item-body__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+								interdum, ac aliquet odio
+								mattis.
+							</p>
+						</div>
+						<div class="item-body__date">11.11.2022</div>
+						<picture><source srcset="img/card-bg.webp" type="image/webp"><img src="img/card-bg.png" alt="image" class="item-body__image"></picture>
+					</a>
 				</div>
-			</section>
-			<section class="page__info info">
-				<div class="container">
-					<div class="info__inner">
-						<h5 class="info__label label label_white">
-							Новые сервера л2 премиум класса
-						</h5>
-						<p class="info__text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
-							mattis tellus. Sed
-							dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed
-							risus. Maecenas eget
-							condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
-							conubia nostra, per
-							inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut
-							rhoncus ex.
-							Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis
-							diam sit amet
-							lacinia. Aliquam in elementum tellus.
-						</p>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="footer">
+			</div>
+		</section>
+		<section class="page__info info">
 			<div class="container">
-				<div class="footer__inner">
-					<nav class="footer__menu menu">
-						<ul class="menu__list">
-							<li class="menu__list">
-								<a href="#" class="menu__link">Анонсы серверов Lineage 2</a>
-							</li>
-							<li class="menu__list">
-								<a href="#" class="menu__link">Сервера по хроникам</a>
-							</li>
-							<li class="menu__list">
-								<a href="#" class="menu__link">Скоро откроются</a>
-							</li>
-							<li class="menu__list">
-								<a href="#" class="menu__link">Открывшиеся сервера</a>
-							</li>
-							<li class="menu__list">
-								<a href="#" class="menu__link">Контакты</a>
-							</li>
-						</ul>
-					</nav>
-					<p class="footer__text">
-						<a href="#">©2012-2023 “Название” - Все права защищены</a>
+				<div class="info__inner">
+					<h5 class="info__label label label_white">
+						Новые сервера л2 премиум класса
+					</h5>
+					<p class="info__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
+						mattis tellus. Sed
+						dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed
+						risus. Maecenas eget
+						condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
+						conubia nostra, per
+						inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut
+						rhoncus ex.
+						Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis
+						diam sit amet
+						lacinia. Aliquam in elementum tellus.
 					</p>
 				</div>
 			</div>
-		</footer>
-	</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<nav class="footer__menu menu">
+					<ul class="menu__list">
+						<li class="menu__list">
+							<a href="#" class="menu__link">Анонсы серверов Lineage 2</a>
+						</li>
+						<li class="menu__list">
+							<a href="#" class="menu__link">Сервера по хроникам</a>
+						</li>
+						<li class="menu__list">
+							<a href="#" class="menu__link">Скоро откроются</a>
+						</li>
+						<li class="menu__list">
+							<a href="#" class="menu__link">Открывшиеся сервера</a>
+						</li>
+						<li class="menu__list">
+							<a href="#" class="menu__link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<p class="footer__text">
+					<a href="#">©2012-2023 “Название” - Все права защищены</a>
+				</p>
+			</div>
+		</div>
+	</footer>
 	<!-- <div id="popup" aria-hidden="true" class="popup">
 	<div class="popup__wrapper">
 		<div class="popup__content">
@@ -395,7 +393,7 @@
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20230127183116"></script>
+	<script src="js/app.min.js?_v=20230127183603"></script>
 </body>
 
 </html>
