@@ -16,14 +16,10 @@
 html,
 body {
   height: 100%;
-  min-width: 320px;
 }
 
 body {
-  color: #000;
   line-height: 1;
-  font-family: "Roboto Condensed";
-  font-size: 0.875rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -34,7 +30,6 @@ body {
 input,
 button,
 textarea {
-  font-family: "Roboto Condensed";
   font-size: inherit;
 }
 
@@ -72,6 +67,16 @@ h5,
 h6 {
   font-weight: inherit;
   font-size: inherit;
+}
+
+.no-webp body{
+  background-image: url("../img/BG.jpg"); }
+
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #0f1119;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .lock body {
@@ -711,16 +716,6 @@ a {
   text-decoration: none;
 }
 
-.no-webp body{
-  background-image: url("../img/BG.jpg"); }
-
-body {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: #0F1119;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
 img {
   max-width: 100%;
 }
@@ -730,10 +725,10 @@ header {
 }
 
 header > div {
-  background: #1B1D25;
+  background: #1b1d25;
   position: relative;
   padding: 20px 0;
-  border-bottom: 2px solid #41434A;
+  border-bottom: 2px solid #41434a;
 }
 
 header > div .logo {
@@ -755,8 +750,8 @@ header > div .top_menu ul li a {
 
 header > div .top_menu ul li.active a,
 header > div .top_menu ul li a:hover {
-  color: #FF7100;
-  border-bottom: 1px solid #FF7100;
+  color: #ff7100;
+  border-bottom: 1px solid #ff7100;
 }
 
 @media (any-hover: hover) {
